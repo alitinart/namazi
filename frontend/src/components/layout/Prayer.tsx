@@ -7,8 +7,8 @@ export default function Prayer() {
         Current Prayer
       </p>
       <h1 className="text-4xl font-bold">Isha</h1>
-      <p className="flex gap-2 text-gray-400 text-base">
-        Fajr, Starts in 42 mins <Clock />
+      <p className="flex items-center gap-2 text-gray-400 text-base">
+        Fajr, Starts in 42 mins <Clock size={20} />
       </p>
     </div>
   );

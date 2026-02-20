@@ -10,7 +10,7 @@ export default function Header() {
         </div>
       </div>
       <div className="flex h-full items-center justify-end">
-        <MoonIcon className="h-full w-auto drop-shadow-[0px_3px_4px] drop-shadow-primary" />
+        <MoonIcon className="h-full w-auto drop-shadow-[0px_3px_20px] drop-shadow-primary" />
       </div>
     </header>
   );
