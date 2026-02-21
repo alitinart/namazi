@@ -15,7 +15,7 @@ export default function CurrentPrayer({
       <p className="text-sm bg-primary text-background w-fit py-1 px-2 rounded-md">
         Current Prayer
       </p>
-      <h1 className="text-4xl font-bold">{currentPrayer.name}</h1>
+      <h1 className="text-3xl md:text-4xl font-bold">{currentPrayer.name}</h1>
       {nextPrayer && (
         <p className="flex items-center gap-2 text-gray-400 text-base">
           {nextPrayer.name}, Starts in {timeLeft} mins <Clock size={20} />

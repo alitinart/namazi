@@ -56,7 +56,7 @@ export default function App() {
   };
 
   return (
-    <main className="flex items-center justify-center p-2 h-screen">
+    <main className="flex items-center justify-center p-2 min-h-screen">
       <div className="flex items-center justify-center flex-col py-10 gap-8 max-w-600">
         {prayers ? (
           <>
